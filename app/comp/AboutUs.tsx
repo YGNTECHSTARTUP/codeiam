@@ -6,7 +6,7 @@ import React from 'react'
 const AboutUs = () => {
   return (
     <div className='md:flex justify-between container -mt-[17%]'>
-        <div className='lg:container'>
+        <div className='md:container'>
             <div className='text-3xl font-bold'>About Us</div><br/>
             <div className='text-4xl text-yellow-500 font-bold'>
                 <div className=''>
