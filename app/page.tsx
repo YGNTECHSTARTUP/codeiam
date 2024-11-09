@@ -5,6 +5,7 @@ import AboutUs from './comp/AboutUs'
 import ChapterComp from './comp/ChapterComp'
 import { ActivitiesComp } from './comp/ActivitiesComp'
 import { TestinomialComp } from './comp/TestinomialComp'
+import Partner from './comp/Partner'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <ChapterComp/>
       <ActivitiesComp/>
       <TestinomialComp/>
+      <Partner/>
       </div>
     
     </div>

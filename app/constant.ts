@@ -2,9 +2,9 @@ export const NavLinkss = [
   { key: 1, name: "HOME", route: "/" },
   { key: 2, name: "CHAPTERS", route: "/chapters" },
   { key: 3, name: "BLOG", route: "/blog" },
-  { key: 4, name: "ACTIVITIES", route: "/activities" },
-  { key: 5, name: "OUR TEAM", route: "/our-team" },
-  { key: 6, name: "CONTACT US", route: "/contact" }
+  { key: 4, name: "ACTIVITIES", route: "/Activities" },
+  { key: 5, name: "OUR TEAM", route: "/Team" },
+  { key: 6, name: "CONTACT US", route: "/ContactMe" }
 ];
 
   export const chapters = [
