@@ -8,7 +8,7 @@ export default function Partner() {
       <div className="grid lg:grid-cols-2 gap-8 items-center mb-16">
         <div className="relative w-full h-[300px] lg:h-[400px]">
           <Image
-            src="/Thanks.png"
+            src="/thanks.png"
             alt="Partnership illustration"
             fill
             className="object-contain"
