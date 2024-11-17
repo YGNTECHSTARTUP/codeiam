@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 export function JoinTeam() {
   return (
@@ -11,13 +13,18 @@ export function JoinTeam() {
         </h1>
         <p></p>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-        The Codeiam Pre-Incubation Hackathon Cluster is a dynamic innovation hub designed to empower aspiring developers, entrepreneurs, and tech enthusiasts. This initiative bridges the gap between raw ideas and transformative solutions, offering participants a unique opportunity to develop, prototype, and showcase groundbreaking projects.
+        The Codeiam Pre-Incubation Hackathon Cluster is a dynamic innovation hub designed to empower aspiring developers, entrepreneurs, and tech enthusiasts. 
         </p>
-        <input
+        <div className="flex space-x-4">
+        <Input
+        placeholder="Enter Your Email"
           type="text"
           
-          className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
+          className="rounded-lg border border-neutral-800 focus:ring-2 text-white placeholder:text-neutral-400 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 "
         />
+        <Button className="mt-4">Submit</Button>
+        </div>
+      
       </div>
       <BackgroundBeams />
     </div>

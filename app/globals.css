@@ -93,4 +93,7 @@
   body {
     @apply bg-background text-foreground;
   }
+  .colgra{
+    @apply bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-[#72c2d8] via-[#62c6e2] to-[#2c90ac] py-4
+  }
 }

@@ -7,6 +7,8 @@ import { FlipWordss } from './comp/FlipWords'
 import { FeaturesSection } from './comp/Features'
 import { AnimatedTestimonial } from './comp/Testinomial'
 import { JoinTeam } from './comp/Jointeam'
+import { OurPartners } from './comp/OurPartner'
+import { Chap,  } from './comp/AppleCaraosel'
 // import { CarouselPlugin } from './comp/Carousal'
 // import AboutUs from './comp/AboutUs'
 // import ChapterComp from './comp/ChapterComp'
@@ -29,7 +31,9 @@ const page = () => {
     <Timelines/>
     <FlipWordss/>
     <FeaturesSection/>
+    <Chap/>
     <AnimatedTestimonial/>
+    <OurPartners/>
     <JoinTeam/>
     </div>
   )

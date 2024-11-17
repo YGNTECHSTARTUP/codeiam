@@ -6,9 +6,12 @@ export function FlipWordss() {
 
   return (
     <div className="container">
-      <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-        At Codeiam We 
+      <div className="text-4xl lg:px-8 sm:px-4 md:px-6 colgra md:text-6xl lg:text-7xl  tex mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+        At Codeiam We <br/>
+        <div className="md:-ml-5">
         <FlipWords words={words} /> <br />
+        </div>
+       
         
       </div>
     </div>

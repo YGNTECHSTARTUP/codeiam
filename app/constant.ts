@@ -96,9 +96,125 @@ export const NavLinkss = [
       title: "International AU Techies",
       description: "International AU Techies chapter promotes global collaboration by engaging with international tech communities and organizing cross-border hackathons, tech talks, and projects. It opens doors for students to interact with global peers and learn about international trends in technology.",
       image: "/arvr.png"
-    }
+    },
+    
   ];
   
+  export const chapter = [
+    {
+      category: "AI/ML AND DATA SCIENCE",
+      title: "AI/ML Chapter",
+      src: "/aiml.png",
+      content: {
+        title: "AI/ML Chapter",
+        description: "Exploring the frontiers of Artificial Intelligence and Machine Learning",
+        images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+        teamMembers: [
+          { name: "John Doe", role: "President", image: "/placeholder-user.jpg" },
+          { name: "Jane Smith", role: "Vice President", image: "/placeholder-user.jpg" },
+          { name: "Alice Johnson", role: "Secretary", image: "/placeholder-user.jpg" },
+        ],
+        whatsappLink: "https://whatsapp.com/group/example",
+        previousEvents: [
+          {
+            title: "AI Ethics Workshop",
+            date: "2023-05-15",
+            description: "A workshop discussing the ethical implications of AI in society.",
+          },
+          {
+            title: "Machine Learning Hackathon",
+            date: "2023-07-22",
+            description: "A 24-hour hackathon focused on solving real-world problems using ML.",
+          },
+        ],
+      },
+    },
+    {
+      category: "AR & VR WEB APP",
+      title: "AR/VR Chapter",
+      src: "/arvr.png",
+      content: {
+        title: "AR/VR Chapter",
+        description: "Creating immersive experiences with Augmented and Virtual Reality",
+        images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+        teamMembers: [
+          { name: "John Doe", role: "President", image: "/placeholder-user.jpg" },
+          { name: "Jane Smith", role: "Vice President", image: "/placeholder-user.jpg" },
+          { name: "Alice Johnson", role: "Secretary", image: "/placeholder-user.jpg" },
+        ],
+        whatsappLink: "https://whatsapp.com/group/example",
+        previousEvents: [
+          {
+            title: "AR Hackathon",
+            date: "2023-06-12",
+            description: "A competition to create AR applications.",
+          },
+          {
+            title: "VR Development Workshop",
+            date: "2023-08-08",
+            description: "An interactive workshop on VR tools and techniques.",
+          },
+        ],
+      },
+    },
+    {
+      category: "ETHICAL DEVSECOPS",
+      title: "DevSecOps Chapter",
+      src: "/devsec.png",
+      content: {
+        title: "DevSecOps Chapter",
+        description: "Integrating security practices into DevOps workflows",
+        images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+        teamMembers: [
+          { name: "John Doe", role: "President", image: "/placeholder-user.jpg" },
+          { name: "Jane Smith", role: "Vice President", image: "/placeholder-user.jpg" },
+          { name: "Alice Johnson", role: "Secretary", image: "/placeholder-user.jpg" },
+        ],
+        whatsappLink: "https://whatsapp.com/group/example",
+        previousEvents: [
+          {
+            title: "Secure Coding Workshop",
+            date: "2023-03-18",
+            description: "An introduction to secure software development practices.",
+          },
+          {
+            title: "Vulnerability Testing Webinar",
+            date: "2023-04-25",
+            description: "Best practices in vulnerability testing and management.",
+          },
+        ],
+      },
+    },
+    {
+      category: "Gate Ignite",
+      title: "Gate Ignite Chapter",
+      src: "/aiml.png",
+      content: {
+        title: "Gate Ignite Chapter",
+        description: "Preparing students for competitive exams like GATE",
+        images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+        teamMembers: [
+          { name: "John Doe", role: "President", image: "/placeholder-user.jpg" },
+          { name: "Jane Smith", role: "Vice President", image: "/placeholder-user.jpg" },
+          { name: "Alice Johnson", role: "Secretary", image: "/placeholder-user.jpg" },
+        ],
+        whatsappLink: "https://whatsapp.com/group/example",
+        previousEvents: [
+          {
+            title: "GATE Prep Bootcamp",
+            date: "2023-09-01",
+            description: "Comprehensive GATE preparation sessions.",
+          },
+          {
+            title: "Mock Test Marathon",
+            date: "2023-10-05",
+            description: "A series of mock tests for GATE aspirants.",
+          },
+        ],
+      },
+    },
+    // Repeat similar structure for remaining chapters...
+  ];
   
   export const CarouselItems= [
     {
@@ -119,3 +235,48 @@ export const NavLinkss = [
       carouselimg:"/car4.jpg" 
     }
   ]
+  export const partners = [
+    {
+        name: "Andhra University Allumni Association",
+        imgurl: "/partner3.jpg",
+        link: "https://andhrauniversityalumni.com/"
+      },
+    {
+      name: "Institute Innovation Council",
+      imgurl: "/partner1.jpeg",
+      link: "https://iic.mic.gov.in/assets/html/index.html"
+    },
+    {
+      name: "e4 Club",
+      imgurl: "/partner2.png",
+      link: "https://www.instagram.com/aue4club/"
+    },
+   
+    {
+      name: "AICTE",
+      imgurl: "/partner4.jpeg",
+      link: "https://www.aicte-india.org/"
+    },
+    {
+      name: "MOE innovation cell",
+      imgurl: "/partner5.png",
+      link: "https://mic.gov.in/&lang=en"
+    },
+    {
+      name: "Codeiam Club",
+      imgurl: "/partner6.jpeg",
+      link: "https://www.instagram.com/codeiam.club/"
+    },
+    {
+      name: "Kalam Dream Labs",
+      imgurl: "/partner7.jpeg",
+      link: "https://www.kalamdreamlabs.com/"
+    },
+    {
+        name: "A hub",
+        imgurl: "/partner8.jpeg",
+        link: "https://www.a-hub.co/"
+      },
+      
+  ];
+  

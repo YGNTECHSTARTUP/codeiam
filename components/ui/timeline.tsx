@@ -38,15 +38,18 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg font-extrabold md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+        <h2 className="mb-4 text-black dark:text-white  text-4xl  container  colgra  md:text-6xl lg:text-7xl font-bold tex ">
           How Codeiam is Started
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-md xl:text-xl md:text-base max-w-sm">
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-md xl:text-xl md:text-base container ">
           Codeiam is a pre incubation and hackathon cluster supported by Andhra University
+          Codeiam is a visionary initiative founded by Gautam Kushwaha during a hackathon, embodying the spirit of innovation and collaboration. Recognizing its potential, the idea was later presented to Andhra University, where it received significant encouragement and support. With the university's backing, Codeiam has grown into a vibrant student-driven community dedicated to fostering creativity and problem-solving through hackathons and event-driven activities.
+
+The community serves as a platform for students to showcase their skills, collaborate on real-world challenges, and develop solutions that make an impact. By hosting dynamic events and fostering a culture of innovation, Codeiam aims to empower students to push the boundaries of technology, build meaningful networks, and transform ideas into reality. It stands as a testament to the power of teamwork and the role of universities in nurturing entrepreneurial talent.
         </p>
       </div>
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+      <div ref={ref} className="relative -mt-[10%] max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
           <div
             key={index}

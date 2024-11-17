@@ -11,6 +11,7 @@ export function Hero() {
  "/car3.jpg",
  "/car4.jpg"
   ];
+  
   return (
     <ImagesSlider className="h-[40rem]" images={images}>
       <motion.div
