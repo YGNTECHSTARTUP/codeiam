@@ -1,6 +1,6 @@
 "use client";
 import {
-  useMotionValueEvent,
+  
   useScroll,
   useTransform,
   motion,
@@ -43,7 +43,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-md xl:text-xl md:text-base container ">
           Codeiam is a pre incubation and hackathon cluster supported by Andhra University
-          Codeiam is a visionary initiative founded by Gautam Kushwaha during a hackathon, embodying the spirit of innovation and collaboration. Recognizing its potential, the idea was later presented to Andhra University, where it received significant encouragement and support. With the university's backing, Codeiam has grown into a vibrant student-driven community dedicated to fostering creativity and problem-solving through hackathons and event-driven activities.
+          Codeiam is a visionary initiative founded by Gautam Kushwaha during a hackathon, embodying the spirit of innovation and collaboration. Recognizing its potential, the idea was later presented to Andhra University, where it received significant encouragement and support. With the university&apos;s backing, Codeiam has grown into a vibrant student-driven community dedicated to fostering creativity and problem-solving through hackathons and event-driven activities.
 
 The community serves as a platform for students to showcase their skills, collaborate on real-world challenges, and develop solutions that make an impact. By hosting dynamic events and fostering a culture of innovation, Codeiam aims to empower students to push the boundaries of technology, build meaningful networks, and transform ideas into reality. It stands as a testament to the power of teamwork and the role of universities in nurturing entrepreneurial talent.
         </p>

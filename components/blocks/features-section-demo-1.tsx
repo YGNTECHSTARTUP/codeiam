@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import { useId } from "react";
 
@@ -97,6 +98,7 @@ export const Grid = ({
   );
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function GridPattern({ width, height, x, y, squares, ...props }: any) {
   const patternId = useId();
 

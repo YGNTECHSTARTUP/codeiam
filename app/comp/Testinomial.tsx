@@ -27,7 +27,7 @@ export function AnimatedTestimonial() {
       
       
   return <div className="container">
-    <div className="text-xl md:text-2xl lg:text-4xl xl:text-6xl">Testinomials</div>
+    <div className="text-4xl lg:px-8 sm:px-4 md:px-6 font-bold md:text-6xl lg:text-7xl">Testinomials</div>
     <AnimatedTestimonials testimonials={testimonials} />;
     </div>
 }

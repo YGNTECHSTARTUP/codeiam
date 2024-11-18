@@ -27,14 +27,27 @@ const page = () => {
       <TestinomialComp/>
       <Partner/>
       </div> */}
-    <Hero/>
-    <Timelines/>
+      <div id='home'>
+      <Hero/>
+      <Timelines/>
+      </div>
+    <div id="features">
     <FlipWordss/>
     <FeaturesSection/>
-    <Chap/>
-    <AnimatedTestimonial/>
-    <OurPartners/>
-    <JoinTeam/>
+    </div>
+     <div id='chapters'>
+     <Chap/>
+     </div>
+   <div id="testinomials">
+   <AnimatedTestimonial/>
+   </div>
+  <div id="partners">
+  <OurPartners/>
+  </div>
+   <div id="joinus">
+   <JoinTeam/>
+   </div>
+   
     </div>
   )
 }
