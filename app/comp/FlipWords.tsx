@@ -2,7 +2,7 @@ import React from "react";
 import { FlipWords } from "@/components/ui/flip-words";
 
 export function FlipWordss() {
-  const words = ["Conduct Hackathons", "Conduct Coding Challenges", "Provide Project Development Space", "Provide Industry Engagement"];
+  const words = ["Conduct Hackathons", "Conduct Coding Challenges", "Provide Development Space", "Provide Industry Engagement"];
 
   return (
     <div className="container">

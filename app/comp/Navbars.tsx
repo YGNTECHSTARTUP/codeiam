@@ -10,7 +10,16 @@ import Navlinks from './Navlinks'
 const Navbars = () => {
   return (
     
- <div className='flex bg-background/80  h-20 w-full gap-2 border-b-primary border-2 justify-between fixed backdrop-blur-md  top-0 z-50 lg:fixed lg:w-full lg:top-0 lg:z-50'>
+ <div className='flex 
+bg-background/80 
+backdrop-blur-md 
+h-20 
+w-full 
+gap-2 
+border-b-2 border-b-primary 
+justify-between 
+fixed top-0 z-50
+lg:fixed lg:w-full lg:top-0'>
       <div>
       <Logo/>
       </div>

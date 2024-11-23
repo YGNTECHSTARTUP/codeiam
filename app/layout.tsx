@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Sidebar } from "lucide-react";
-import { FloatingNave } from "@/components/ui/Nav";
+// import { FloatingNave } from "@/components/ui/Nav";
+import Navbars from "./comp/Navbars";
 
 // import Navbars from "./comp/Navbars";
 // import Footer from "./comp/Footer";
@@ -34,7 +35,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <Navbars/> */}
-        <FloatingNave/>
+        {/* <FloatingNave/> */}
+        <Navbars/>
         <div className="md:hidden">
         <Sidebar/>
         </div>

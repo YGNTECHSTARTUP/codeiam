@@ -97,3 +97,8 @@
     @apply bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-[#72c2d8] via-[#62c6e2] to-[#2c90ac] py-4
   }
 }
+@layer utilities {
+  .clip-hexagon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+}
