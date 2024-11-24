@@ -16,13 +16,8 @@ import {
 import Link from "next/link"
 import Logo from "./Logo"
 
-export const links = [ {key:2,name:"HOME",route:"/"},
-  { key: 3, name: "BLOG", route: "/blog" },
-  { key: 4, name: "ACTIVITIES", route: "/Activities" },
-  {key:1,name:"CHAPTERS",route:"/Chapters"},
-  { key: 5, name: "OUR TEAM", route: "/Team" },
-  { key: 6, name: "CONTACT US", route: "/ContactMe" }
-]
+// import Navlinks from "./Navlinks"
+import { NavLinkss } from "../constant"
 
 
 export default function MobNav() {
@@ -49,7 +44,7 @@ export default function MobNav() {
         
          
           <ul className="space-y-2">
-            {links.map((item, index) => (
+            {NavLinkss.map((item, index) => (
               <li key={index}>
               
                 <Link

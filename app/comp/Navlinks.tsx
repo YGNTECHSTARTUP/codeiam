@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLinkss } from '../constant'
 import Link from 'next/link'
-import { TiArrowSortedDown } from "react-icons/ti";
+// import { TiArrowSortedDown } from "react-icons/ti";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -17,26 +17,28 @@ const Navlinks = () => {
         return (
           <DropdownMenu key={link.key}>
           <DropdownMenuTrigger >
-            <Link  href={link.route} className='hover:text-blue-500  flex border-dotted font-semibold text-sm mr-5'>
+            
          
+           <Link href={link.route}>
+           {link.name}
+           </Link>
            
+     
           
-             {link.name}
-             {
-                
-                link.name === "CHAPTERS" &&<TiArrowSortedDown className='inline mt-1' />
-     }
+             
+             </DropdownMenuTrigger>
+           
              
               {
                 
-                 link.name === "CHAPTERS" && <div className='flex'>
+                 link.name === "CHAPTERS" && <div className='flex -space-x-14'>
                  
                   <DropdownMenuContent side={'bottom'} align={'start'}>
                   {
                     chapters.map((item)=>(
                      
                         <DropdownMenuItem key={item.key}>
-                       <Link href={`${item.href}`} passHref legacyBehavior>
+                       <Link href={`${item.href}`} >
                        {item.label}
                        </Link>   
                           </DropdownMenuItem>
@@ -45,8 +47,8 @@ const Navlinks = () => {
                   </DropdownMenuContent> </div> }
             
          
-            </Link>
-            </DropdownMenuTrigger>
+            
+       
             </DropdownMenu>
         )
      })}
