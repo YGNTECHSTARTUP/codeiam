@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className={`mt-20 pt-2 text-xs md:text-sm  border-t w-full flex-col items-center bottom-0 relative text-white border-white/10 flex bg-primary/80 text-pretty text-primary justify-center transition-all duration-300   ${shantell.className}`}>
+    <div className={` pt-2 text-xs md:text-sm  border-t w-full flex-col items-center bottom-0 relative text-white border-white/10 flex bg-primary/80 text-pretty text-primary justify-center transition-all duration-300   ${shantell.className}`}>
     
     
       <p className="text-sm text-center md:text-left">

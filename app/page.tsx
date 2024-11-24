@@ -19,7 +19,7 @@ import Ourmission from './comp/Ourmission'
 
 const page = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       {/* <div className='overflow-hidden'>
       <CarouselPlugin/>
       <AboutUs/>

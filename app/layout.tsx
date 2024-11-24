@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Sidebar } from "lucide-react";
+// import { Sidebar } from "lucide-react";
 // import { FloatingNave } from "@/components/ui/Nav";
 import Navbars from "./comp/Navbars";
+import Footer from "./comp/Footer";
 
 // import Navbars from "./comp/Navbars";
 // import Footer from "./comp/Footer";
@@ -37,11 +38,10 @@ export default function RootLayout({
         {/* <Navbars/> */}
         {/* <FloatingNave/> */}
         <Navbars/>
-        <div className="md:hidden">
-        <Sidebar/>
-        </div>
+       
        
         {children}
+        <Footer/>
         {/* <Footer /> */}
       </body>
     </html>
