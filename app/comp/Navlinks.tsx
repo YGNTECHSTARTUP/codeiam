@@ -15,13 +15,13 @@ const Navlinks = () => {
     <div className="gap-4 flex  items-center " >
      {NavLinkss.map((link)=>{
         return (
-          <DropdownMenu key={link.key}>
+          <Link href={link.route} key={link.key}>
+          <DropdownMenu >
           <DropdownMenuTrigger >
             
          
-           <Link href={link.route}>
+          
            {link.name}
-           </Link>
            
      
           
@@ -36,12 +36,13 @@ const Navlinks = () => {
                   <DropdownMenuContent side={'bottom'} align={'start'}>
                   {
                     chapters.map((item)=>(
-                     
-                        <DropdownMenuItem key={item.key}>
-                       <Link href={`${item.href}`} >
+                      <Link href={`${item.href}`} key={item.key} className='cursor-pointer ' >
+                        <DropdownMenuItem className='cursor-pointer' >
+
                        {item.label}
-                       </Link>   
+                      
                           </DropdownMenuItem>
+                          </Link>   
                       
                     ))}
                   </DropdownMenuContent> </div> }
@@ -50,6 +51,7 @@ const Navlinks = () => {
             
        
             </DropdownMenu>
+            </Link>
         )
      })}
     </div>

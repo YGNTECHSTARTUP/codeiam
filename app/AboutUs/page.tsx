@@ -9,15 +9,22 @@ const page = () => {
     <div>
         {/* <Timeline/> */}
         <AboutUs/>
-        <div className="max-w-7xl mx-auto py-20 -mt-[5%] px-4 md:px-8 lg:px-10">
+        <div className="max-w-7xl mx-auto py-20 lg:-mt-[5%] -mt-44 px-4 md:px-8 lg:px-10">
         <h2 className="mb-4 text-black dark:text-white  text-4xl  container  colgra  md:text-6xl lg:text-7xl font-bold tex ">
             Building a Collaborative Tech Community
         </h2>
         
       </div>
-      
-        <StickyScrollReveal/>
+      <div className='-mt-24 lg:mt-0'>
+      <StickyScrollReveal/>
+      </div>
+        <div className='-mt-24 lg:mt-0'>
+
         <Timelines/>
+        </div>
+
+
+       
     </div>
 
   )

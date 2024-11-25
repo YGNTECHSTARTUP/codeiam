@@ -4,7 +4,7 @@ import "./globals.css";
 // import { Sidebar } from "lucide-react";
 // import { FloatingNave } from "@/components/ui/Nav";
 import Navbars from "./comp/Navbars";
-import Footer from "./comp/Footer";
+// import Footer from "./comp/Footer";
 
 // import Navbars from "./comp/Navbars";
 // import Footer from "./comp/Footer";
@@ -41,7 +41,7 @@ export default function RootLayout({
        
        
         {children}
-        <Footer/>
+        {/* <Footer/> */}
         {/* <Footer /> */}
       </body>
     </html>
