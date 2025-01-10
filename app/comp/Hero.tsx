@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import React from "react";
 import { ImagesSlider } from "@/components/images-slider";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function Hero() {
   const images = [
@@ -41,16 +43,22 @@ export function Hero() {
         </div>
        
         <div className="flex space-x-6 ">
-        <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
-          <span>Explore Our Chapters→</span>
+          <Link href="https://www.canva.com/design/DAGSM0Rlenk/VieoPgmahO2m3m5rNSuDZw/edit">
+          <Button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
+          <span>Check Our Brochure→</span>
           
           <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
-        </button>
-        <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
+        </Button>
+          </Link>
+    <Link href="https://www.instagram.com/codeiam.club?
+igsh=dTcycnI3OXZmdTk0">
+    <Button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
         <span>Join Our Community→</span>
           
           <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
-        </button>
+        </Button>
+    </Link>
+
         </div>
         
        

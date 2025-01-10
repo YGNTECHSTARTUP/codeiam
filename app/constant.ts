@@ -2,12 +2,189 @@ export const NavLinkss = [
   { key: 1, name: "HOME", route: "/" },
   {key:7,name:"ABOUT US",route:"/AboutUs"},
  
- 
+ {key:3,name:"EVENTS",route:"/Events"},
   { key: 5, name: "OUR TEAM", route: "/Team" },
   { key: 6, name: "CONTACT US", route: "/ContactMe" },
   { key: 2, name: "CHAPTERS", route: "/chapters" },
 ];
-
+  export const events = [
+    {
+      "name": "Pre-Hackathon event of Health and Welfare",
+      "dateTime": "23rd Jan 2024",
+      "participants": "25+",
+      "mode": "Codeiam.club",
+      "resourcePerson": "Giri Raj Sekhar"
+    },
+    {
+      "name": "Basics of Programming",
+      "dateTime": "January 12th, 2024, | 10.00am",
+      "participants": "35+",
+      "mode": "online",
+      "resourcePerson": "Shoukath Ali, Lead of AR/VR, Web/App development chapter"
+    },
+    {
+      "name": "CODEIAM – ENROLMENT",
+      "dateTime": "DECEMBER 22nd, 4.00PM",
+      "participants": "180+",
+      "mode": "Codeiam.club",
+      "resourcePerson": "Co-ordinators"
+    },
+    {
+      "name": "IoT Insight",
+      "dateTime": "January 12th, 2024, | 4.00pm",
+      "participants": "40",
+      "mode": "online",
+      "resourcePerson": "Bandi Jayasatyadurgarao, Co-Lead of Industry 4.0 Chapter"
+    },
+    {
+      "name": "Ideapalooza, Ideathon Unleashed",
+      "dateTime": "January 2nd 2024",
+      "participants": "32",
+      "mode": "Codeiam",
+      "resourcePerson": "E4 club and codeiam club member"
+    },
+    {
+      "name": "Exploring New Horizons in Web Development",
+      "dateTime": "2nd March 2024",
+      "participants": "35",
+      "mode": "AUCEW",
+      "resourcePerson": "Women Techies Codeiam Club"
+    },
+    {
+      "name": "Pre-Hackathon event of Tribal Welfare",
+      "dateTime": "17th Nov onward",
+      "participants": "70, 40, 40",
+      "mode": "Codeiam",
+      "resourcePerson": "Gautam, Varma, and others"
+    },
+    {
+      "name": "Shaping Sustainable Startups",
+      "dateTime": "6th December, 2023",
+      "participants": "70",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Dr. Diwakar Vadapalli, manager at à-hub"
+    },
+    {
+      "name": "From Startup Idea to Global Changemaker",
+      "dateTime": "27th December, 2023",
+      "participants": "75",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Dr. Ravi Eswarapu, a-hub CEO"
+    },
+    {
+      "name": "Building a Startup from Scratch",
+      "dateTime": "13th December",
+      "participants": "45",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Mr. Sekhar Javvadi, co-founder of Spotmies-LLP"
+    },
+    {
+      "name": "From Fields to Forbes",
+      "dateTime": "27th December",
+      "participants": "72",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Mr. Venkata Reddy, CEO/Founder of Teck Team Solutions/Vihaan Electrix"
+    },
+    {
+      "name": "From Rationing Fuel to Rekindling Hope",
+      "dateTime": "18th January",
+      "participants": "70",
+      "mode": "online",
+      "resourcePerson": "Mr. Mohamed Uvais, former chairman of Ceylon Petroleum Corporation"
+    },
+    {
+      "name": "Building Social Impact Ventures",
+      "dateTime": "25th January",
+      "participants": "55",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Mr. Srinivas Savaram, Director of TIE, Vizag"
+    },
+    {
+      "name": "Innovation and Entrepreneurship",
+      "dateTime": "15th January",
+      "participants": "55",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Mr. Diwakar Vadapalli"
+    },
+    {
+      "name": "Workshop on Python (Basics) Sample Live Project",
+      "dateTime": "16th March, 2024",
+      "participants": "50+",
+      "mode": "AUCEW",
+      "resourcePerson": "Women Techies Codeiam Club"
+    },
+    {
+      "name": "Offline Coding Contest",
+      "dateTime": "23rd March, 2024",
+      "participants": "10+",
+      "mode": "AUCEW",
+      "resourcePerson": "Women Techies Codeiam Club"
+    },
+    {
+      "name": "Doubts/Interactions (Online)",
+      "dateTime": "30th March, 2024",
+      "participants": "12+",
+      "mode": "AUCEW",
+      "resourcePerson": "Women Techies Codeiam Club"
+    },
+    {
+      "name": "Ethical Hacking Awareness Session-1 (Topic: Phishing Attack)",
+      "dateTime": "18th March, 2024",
+      "participants": "40",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Raghavendra Varma, Lead of Ethical DevSecOps Chapter"
+    },
+    {
+      "name": "Cloud Computing Awareness Session-1",
+      "dateTime": "21st March, 2024",
+      "participants": "36",
+      "mode": "Codeiam Club",
+      "resourcePerson": "Shaik Asif Umeed, Co-lead of Ethical DevSecOps Chapter"
+    },
+    {
+      "name": "DevOps Awareness Session-1",
+      "dateTime": "28th March, 2024",
+      "participants": "35",
+      "mode": "online",
+      "resourcePerson": "Shaik Asif Umeed, Co-lead of Ethical DevSecOps Chapter"
+    },
+    {
+      "name": "Codeiam Hackathon",
+      "dateTime": "8th July to 14th July",
+      "participants": "180",
+      "mode": "online and offline",
+      "resourcePerson": "Codeiam club volunteer and mentor"
+    },
+    {
+      "name": "Startup Mixer",
+      "dateTime": "27th July",
+      "participants": "50",
+      "mode": "offline",
+      "resourcePerson": "Bollem Raj Kumar, Abhishek Bokinala, Vineel Judson"
+    },
+    {
+      "name": "Codeiam Orientation",
+      "dateTime": "10th August",
+      "participants": "500",
+      "mode": "offline",
+      "resourcePerson": "Gautam, Soukath, Neeraj"
+    },
+    {
+      "name": "Codeiam Hackathon Series of Events",
+      "dateTime": "8th July to 14th July",
+      "participants": "500+",
+      "mode": "offline and online",
+      "resourcePerson": "Different speakers"
+    },
+    {
+      "name": "Recruitment",
+      "dateTime": "10th September",
+      "participants": "200+",
+      "mode": "offline",
+      "resourcePerson": "Gautam"
+    }
+  ]
+  
   export const chapters = [
     { key: 'aiAndML', href: '/chapters/AI&ML', label: 'AI/ML', chapter:'/assets/Chapters/aiml.png' },
     { key: 'arVrWebAppDev', href: '/chapters/ARVR&WebAppDev', label: 'AR/VR & Web & App Development', chapter:'/assets/Chapters/arvrwebapp.png' },

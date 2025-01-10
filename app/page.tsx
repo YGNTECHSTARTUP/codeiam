@@ -46,6 +46,7 @@ const page = () => {
   <div id="partners">
   <OurPartners/>
   </div>
+ 
    <div id="joinus">
    <JoinTeam/>
    </div>
