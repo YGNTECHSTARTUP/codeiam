@@ -6,6 +6,7 @@ import Image from "next/image"
 import { cn } from "@/lib/utils"
 import FeatureSection from "./ui/FeatureSection"
 import { AutoplayCarousel } from "./ui/autoplay"
+import EventLocationMap from "./ui/event-location"
 
 const pacifico = Pacifico({
   subsets: ["latin"],
@@ -203,6 +204,7 @@ export default function HeroGeometric({
         <section className="mb-16  px-4 py-12">
         <AutoplayCarousel images={carouselImages} interval={4000} />
       </section>
+      <EventLocationMap/>
         </div>
 
       </div>
