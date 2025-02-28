@@ -1,15 +1,14 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Bot, Zap, Shield, Sparkles, Cpu, Globe } from "lucide-react"
-
+import {Lightbulb, MicVocal, Handshake, Megaphone, Boxes, Trophy } from "lucide-react"
 const features = [
-  { icon: Bot, title: "Easy Bot Creation", description: "Build complex bots with a simple interface" },
-  { icon: Zap, title: "Lightning Fast", description: "Deploy your bots in seconds, not hours" },
-  { icon: Shield, title: "Secure & Reliable", description: "Bank-grade security for your Discord community" },
-  { icon: Sparkles, title: "AI-Powered", description: "Leverage cutting-edge AI for smarter bots" },
-  { icon: Cpu, title: "Advanced Automation", description: "Automate tasks with powerful workflows" },
-  { icon: Globe, title: "Global Scaling", description: "Scale your bots to millions of users effortlessly" },
+  { icon:Lightbulb, title: "Startup Showcases", description: "Present your innovative ideas and prototypes" },
+  { icon: MicVocal, title: "Pitch Competitions", description: "Compete for funding and mentorship opportunities" },
+  { icon: Handshake, title: "Networking Sessions", description: "Meet investors, entrepreneurs, and like-minded students" },
+  { icon: Megaphone, title: "Expert Panel Talks", description: "Learn from industry experts and successful founders" },
+  { icon: Boxes, title: "Hands-on Workshops", description: "master Bussiness scaling,marketing,and tech innovations" },
+  { icon: Trophy, title: "Prizes & Incubation Support", description: "Win cash prizes, mentorship, and investor access" },
 ]
 
 export default function FeatureSection() {
@@ -51,7 +50,7 @@ function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
       className="relative overflow-hidden rounded-xl bg-gradient-to-br from-sky-500/10 to-blue-500/10 p-px group"
     >
       <div className="relative z-10 bg-gray-200 p-8 rounded-xl h-full">
-        <div className="mb-4 text-sky-400">
+        <div className="mb-4 text-blue-400">
           <Icon className="w-8 h-8" />
         </div>
         <h3 className="text-xl font-semibold mb-2">{title}</h3>

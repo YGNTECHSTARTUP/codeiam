@@ -150,7 +150,7 @@ export default function HeroGeometric({
         />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 md:px-6">
+      <div className="relative z-10 container mx-auto px-4 md:px-6 mt-80">
         <div className="max-w-3xl mx-auto text-center">
           <motion.div
             custom={0}
@@ -185,7 +185,10 @@ export default function HeroGeometric({
           </motion.div>
          
         </div>
-      <FeatureSection/>
+        <div className="-mt-20 mb-20"> 
+        <FeatureSection/>
+
+        </div>
 
       </div>
 
