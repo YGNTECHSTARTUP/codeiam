@@ -3,12 +3,12 @@
 import { motion } from "framer-motion"
 import {Lightbulb, MicVocal, Handshake, Megaphone, Boxes, Trophy } from "lucide-react"
 const features = [
-  { icon:Lightbulb, title: "Startup Showcases", description: "Present your innovative ideas and prototypes" },
+  { icon:Lightbulb, title: "Startup Showcases", description: "Present your innovative ideas, prototypes and research work" },
   { icon: MicVocal, title: "Pitch Competitions", description: "Compete for funding and mentorship opportunities" },
   { icon: Handshake, title: "Networking Sessions", description: "Meet investors, entrepreneurs, and like-minded students" },
   { icon: Megaphone, title: "Expert Panel Talks", description: "Learn from industry experts and successful founders" },
   { icon: Boxes, title: "Hands-on Workshops", description: "master Bussiness scaling,marketing,and tech innovations" },
-  { icon: Trophy, title: "Prizes & Incubation Support", description: "Win cash prizes, mentorship, and investor access" },
+  { icon: Trophy, title: "Prizes & Incubation Support", description: "Win cash prizes, mentorship, and investor access for your idea" },
 ]
 
 export default function FeatureSection() {

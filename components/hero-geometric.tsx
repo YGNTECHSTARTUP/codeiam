@@ -5,12 +5,25 @@ import { Pacifico } from "next/font/google"
 import Image from "next/image"
 import { cn } from "@/lib/utils"
 import FeatureSection from "./ui/FeatureSection"
+import { AutoplayCarousel } from "./ui/autoplay"
 
 const pacifico = Pacifico({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-pacifico",
 })
+const carouselImages = [
+    {
+      src: "/stex1.png",
+      alt: "Project 1",
+    },
+    {
+      src: "/stex2.png",
+      alt: "Project 2",
+    },
+   
+   
+  ]
 
 function ElegantShape({
   className,
@@ -187,7 +200,9 @@ export default function HeroGeometric({
         </div>
         <div className="-mt-20 mb-20"> 
         <FeatureSection/>
-
+        <section className="mb-16  px-4 py-12">
+        <AutoplayCarousel images={carouselImages} interval={4000} />
+      </section>
         </div>
 
       </div>
